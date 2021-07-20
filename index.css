@@ -12,17 +12,21 @@ header .top a:first-child {
 header .top > div {
   float: right;
 }
-
-header .top .control h2 {
+header .control {
+  float: left;
+  padding: 31px 24px 0 0;
+}
+header .control h2 {
   float: left;
   font-size: 16px;
   color: #333;
   font-weight: normal;
+  line-height: 36px;
 }
-header .top.control ul {
+header .control ul {
   float: left;
 }
-header .top.control li {
+header .control li {
   float: left;
 }
 header .control li button {
@@ -35,4 +39,28 @@ header .control li button {
   height: 36px;
   border-radius: 36px;
   box-sizing: border-box;
+}
+header .sns {
+  float: left;
+  padding: 27px 0 0;
+  position: relative;
+}
+header .sns:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 35px;
+  width: 1px;
+  height: 30px;
+  background: #e3e3e3;
+}
+header .sns li {
+  float: left;
+  padding: 0 0 0 12px;
+}
+header .sns li img {
+  width: 46px;
+}
+main {
+  width: 1200px;
 }
