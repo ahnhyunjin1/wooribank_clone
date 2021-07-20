@@ -1,0 +1,38 @@
+header .top {
+  margin: 0 auto;
+  width: 1200px;
+}
+header .top h1 {
+  float: left;
+  padding: 33px;
+}
+header .top a:first-child {
+  margin-right: 28px;
+}
+header .top > div {
+  float: right;
+}
+
+header .top .control h2 {
+  float: left;
+  font-size: 16px;
+  color: #333;
+  font-weight: normal;
+}
+header .top.control ul {
+  float: left;
+}
+header .top.control li {
+  float: left;
+}
+header .control li button {
+  padding: 0 16px;
+  min-width: 36px;
+  font-size: 14px;
+  color: #3198ce;
+  background: white;
+  border: 1px solid #dfdfdf;
+  height: 36px;
+  border-radius: 36px;
+  box-sizing: border-box;
+}
