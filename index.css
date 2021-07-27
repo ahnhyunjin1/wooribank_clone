@@ -89,6 +89,9 @@ header .btm .spot {
   float: right;
   font-size: 0px;
 }
+header .btm .spot * {
+  vertical-align: middle;
+}
 header .btm .spot a {
   display: inline-block;
   position: relative;
@@ -97,7 +100,7 @@ header .btm .spot a {
   color: #666;
   font-size: 15px;
 }
-header .btm.spot a ~ a:before {
+header .btm .spot a ~ a:before {
   content: "";
   position: absolute;
   left: 0;
@@ -106,4 +109,11 @@ header .btm.spot a ~ a:before {
   height: 10px;
   background: #e3e3e8;
   transform: translateY();
+}
+header .btm .spot button {
+  width: 59px;
+  height: 59px;
+  background: none;
+  font-size: 26px;
+  color: #0066b3;
 }
