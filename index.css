@@ -1,6 +1,7 @@
 header .top {
   margin: 0 auto;
   width: 1200px;
+  padding: 0 0 26px;
 }
 header .top h1 {
   float: left;
@@ -61,6 +62,48 @@ header .sns li {
 header .sns li img {
   width: 46px;
 }
-main {
+header .btm {
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+}
+header .btm > div {
+  margin: 0 auto;
   width: 1200px;
+}
+
+header .btm .lnb {
+  float: left;
+}
+header .btm .lnb li {
+  float: left;
+}
+header .btm .lnb a {
+  display: block;
+  line-height: 59px;
+  padding: 0 40px;
+  color: #333;
+  font-size: 22px;
+}
+
+header .btm .spot {
+  float: right;
+  font-size: 0px;
+}
+header .btm .spot a {
+  display: inline-block;
+  position: relative;
+  padding: 0 25px;
+  line-height: 59px;
+  color: #666;
+  font-size: 15px;
+}
+header .btm.spot a ~ a:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 1px;
+  height: 10px;
+  background: #e3e3e8;
+  transform: translateY();
 }
