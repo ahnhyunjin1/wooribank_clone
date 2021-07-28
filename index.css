@@ -117,3 +117,64 @@ header .btm .spot button {
   font-size: 26px;
   color: #0066b3;
 }
+/* visual */
+.visual .slide1 img {
+  width: 100%;
+}
+.visual .controls {
+  position:absolute;
+  left: 50%;
+  padding: 0 32px;
+  transform: translateX(-50%);
+  bottom: 10px;
+}
+.visual .controls > button {
+  width: 15px;
+  height: 25px;
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+}
+.visual .controls > button.prev {
+  left: 0;
+  background: url(/images/sBtn_prev.png);
+  color: #333;
+}
+.visual .controls > button.next {
+  right: 0;
+  background: url(/images/sBtn_next.png);
+  color: #333;
+}
+.visual .paging span {
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+  background: #d9d9d9;
+  margin: 0 5px;
+}
+.visual .paging {
+  line-height: 25px;
+}
+.visual .paging span.swiper-pagination-bullet-active {
+  background: #288bcc;
+  width: 30px;
+}
+.block > div {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 100px 0 0;
+}
+.block .tit h2 {
+  padding: 0 0 28px;
+  font-size: 38px;
+  color: #333;
+  line-height: 1;
+}
+.block .tit p {
+  font-size: 21px;
+  color: #666;
+  line-height: 1;
+}
+.block .tit {
+  text-align: center;
+}
