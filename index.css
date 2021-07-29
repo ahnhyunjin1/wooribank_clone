@@ -174,6 +174,7 @@ header .btm .spot button {
   font-size: 21px;
   color: #666;
   line-height: 1;
+  padding: 0 0 40px;
 }
 .block .tit {
   text-align: center;
@@ -182,9 +183,13 @@ header .btm .spot button {
 .service .banner div div {
   width: 280px;
   height: 290px;
+  padding: 37px 0 ;
+  box-sizing: border-box;
+  text-align: center;
 }
 .service .banner > div {
   width: 580px;
+  color: #FFF;
 }
 .service .banner .left {
   float: left;
@@ -192,8 +197,66 @@ header .btm .spot button {
 }
 .service .banner .left div{
   float: right;
+  background: linear-gradient(to right, #3194d5, #4fb2f6);
 }
 .service .banner .right{
   float: right;
   background: url(./images/bg_ad2.png) no-repeat right top;
+}
+.service .banner .right div{
+  background: linear-gradient(to right,#334da4 , #3c62b3);
+}
+.service .banner > div h3{
+  font-size: 23px;
+  line-height: 31px;
+}
+.service .banner > div p{
+  padding: 12px 0 15px;
+  font-size: 13px;
+  line-height: 24px;
+}
+.service .banner  a{
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  width: 140px;
+  line-height: 40px;
+  text-align: center;
+  background: #064ca2;
+  border-radius: 7px;
+}
+.service .event img{
+  width: 100%;
+}
+.service .event {
+  float: left;
+}
+.service .recom {
+  float: right;
+}
+.btn_more{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 136px;
+  line-height: 38px;
+  border-radius: 4px;
+  border: 1px solid #cdcdcd;
+  font-size: 16px;
+  text-align: center;
+  color: #8a8a8a;
+}
+.btn_more:after{
+  content: url(images/sArrow_next.png);
+  margin:  0 0 0 8px;
+}
+.service .btm > article {
+  position: relative;
+  margin: 38px 0 0;
+  width: 580px;
+}
+.service .btm h3 {
+  font-size: 26px;
+  color: #333;
+  padding: 0 0 28px;
 }
