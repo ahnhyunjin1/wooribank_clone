@@ -178,3 +178,22 @@ header .btm .spot button {
 .block .tit {
   text-align: center;
 }
+/* 금융서비스 */
+.service .banner div div {
+  width: 280px;
+  height: 290px;
+}
+.service .banner > div {
+  width: 580px;
+}
+.service .banner .left {
+  float: left;
+  background: url(./images/bg_ad1.png) no-repeat left top;
+}
+.service .banner .left div{
+  float: right;
+}
+.service .banner .right{
+  float: right;
+  background: url(./images/bg_ad2.png) no-repeat right top;
+}
