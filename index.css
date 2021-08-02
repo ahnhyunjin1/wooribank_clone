@@ -260,3 +260,69 @@ header .btm .spot button {
   color: #333;
   padding: 0 0 28px;
 }
+.service .card_info > div{
+  float: left;
+}
+.service .card_info .card{
+  position: relative;
+  font-size: 0;
+}
+.service .card_info .card div {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(255,255,255,.8);
+}
+.service .card_info .card div:before{
+  content: "";
+  position: absolute;
+  left: 50%;
+  height: 100%;
+  width: 1px;
+  background: #bfc0c2;
+}
+.service .card_info .card button {
+  width: 50%;
+  height: 45px;
+  background: none;
+  font-size: 15px;
+  color: #666;
+  cursor: pointer;
+}
+.service .card_info .info {
+  padding: 0 0 0 35px;
+  width: 296px;
+}
+.service .card_info .info p:before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 21px;
+  width: 36px;
+  height: 2px;
+  background: #288bcc;
+}
+.service .card_info h4{
+  font-size: 26px;
+  color: #333;
+  line-height: 1;
+}
+.service .card_info p {
+  padding: 36px 0 0 0 ;
+  font-size: 18px;
+  color: #666;
+  letter-spacing: -0.5px;
+  position: relative;
+}
+.service .slide2{
+  border-top: 2px solid #333;
+  padding: 20px 0 0;
+  height: 224px;
+  box-sizing: border-box;
+}
+.service .slide2 .control {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
