@@ -323,6 +323,21 @@ header .btm .spot button {
 }
 .service .slide2 .control {
   position: absolute;
-  left: 0;
+  left: 256px;
   bottom: 0;
+  z-index: 100;
+}
+.service .slide2 .control button {
+  width: 75px;
+  height: 35px;
+  cursor: pointer;
+}
+.service .slide2 .control button ~ button{
+  border-left: 2px solid #ddd;
+}
+.service .slide2 .control button.prev{
+  background: url(/images/sArrow_prev.png) no-repeat center;
+}
+.service .slide2 .control button.next{
+  background: url(/images/sArrow_next.png) no-repeat center;
 }
