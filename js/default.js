@@ -18,8 +18,8 @@ $(document).ready(function () {
     slidesPerView: 1,
     loop: true,
     navigation: {
-      nextEl: ".slide2 .slide2_btn_next",
-      prevEl: ".slide2 .slide2_btn_prev",
+      nextEl: ".slide2 .next",
+      prevEl: ".slide2 .prev",
     },
   });
 });
