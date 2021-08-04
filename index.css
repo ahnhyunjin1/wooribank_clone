@@ -364,3 +364,16 @@ header .btm .spot button {
 .fav_info .left > a span{
   color: #ffc820;
 }
+.fav_info .left {
+  float: left;
+  width: 384px;
+}
+.fav_info .left .thoumb img {
+  width: 100%;
+}
+.fav_info .left .thoumb {
+  padding:  30px 0 0;
+}
+.fav_info .right {
+  float: right;
+}
