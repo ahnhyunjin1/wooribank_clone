@@ -483,5 +483,19 @@ header .btm .spot button {
 .education .edu_warp .left a {
   display: block;
   height: 544px;
-  background: url(./images/education.jpg) no-repeat center;
+  background: url(./images/education.jpg) no-repeat center / cover;
+  border-radius: 4px;
+  padding: 72px 50px;
+  box-sizing: border-box;
+  color: #fff;
+}
+.education .edu_warp .left a strong {
+  font-size: 27px;
+  display: block;
+  width: 330px;
+}
+.education .edu_warp .left a p {
+  font-size: 16px;
+  width: 255px;
+
 }
