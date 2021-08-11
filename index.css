@@ -591,7 +591,9 @@ header .btm .spot button {
 }
 .trip .trip_list li {
   width: 384px;
+  position: relative;
 }
 .trip .trip_list li.thoumb{
   width: 100%;
+  height: 212px;
 }
