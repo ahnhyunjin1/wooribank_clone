@@ -470,6 +470,9 @@ header .btm .spot button {
   color: #288bcc;
 }
 /* 교육/ 세미나 */
+.education {
+  padding: 0 0 104px;
+}
 .education h3 {
   font-size: 23px;
   color: #333;
@@ -571,4 +574,24 @@ header .btm .spot button {
 }
 .education .edu_warp .right >div{
   position: relative;
+}
+
+/* 여행 /쇼핑 */
+
+.trip {
+  background: url(./images/sky.jpg);
+}
+.trip .tit h2,
+.trip .tit p{
+  color: #fff;
+}
+.trip .trip_list {
+  display: flex;
+  justify-content: space-between;
+}
+.trip .trip_list li {
+  width: 384px;
+}
+.trip .trip_list li.thoumb{
+  width: 100%;
 }
