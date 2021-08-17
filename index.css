@@ -638,15 +638,15 @@ header .btm .spot button {
 }
 /*롯데관광 색상 */
 .trip .trip_list li.color2 strong span{
-  color: ;
+  color: #122e80;
 }
 .trip .trip_list li.color2 a{
-  background: ;
+  background: #122e80;
 }
 /*국내여행 생상 */
 .trip .trip_list li.color3 strong span{
-  color: 
+  color: #299bcc;
 }
 .trip .trip_list li.color3 a{
-  background: 
+  background: #288bcc;
 }
