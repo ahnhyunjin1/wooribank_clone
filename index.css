@@ -627,4 +627,26 @@ header .btm .spot button {
   line-height: 40px;
   color: #fff;
   font-size: 17px;
+  border-radius: 5px;
+}
+/* 위메프 색상 */
+.trip .trip_list li.color1 strong span{
+  color: #ed2626;
+}
+.trip .trip_list li.color1 a{
+  background: #ed2626;
+}
+/*롯데관광 색상 */
+.trip .trip_list li.color2 strong span{
+  color: ;
+}
+.trip .trip_list li.color2 a{
+  background: ;
+}
+/*국내여행 생상 */
+.trip .trip_list li.color3 strong span{
+  color: 
+}
+.trip .trip_list li.color3 a{
+  background: 
 }
