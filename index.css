@@ -579,6 +579,7 @@ header .btm .spot button {
 /* 여행 /쇼핑 */
 
 .trip {
+  padding: 0 0 100px;
   background: url(./images/sky.jpg);
 }
 .trip .tit h2,
@@ -590,15 +591,19 @@ header .btm .spot button {
   justify-content: space-between;
 }
 .trip .trip_list li {
-  width: 384px;
+  width: 380px;
   position: relative;
+  height: 439px;
+  background: #fff;
+  border-radius: 5px;
 }
 .trip .trip_list li.thoumb{
   width: 100%;
   height: 212px;
+  border-radius: 5px 5px 0 0;
 }
 .trip .trip_list li .mark{
   position: absolute;
-  right: 0;
-  top: 0;
+  right: -10px;
+  top: -24px;
 }
