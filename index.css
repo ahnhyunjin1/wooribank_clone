@@ -596,6 +596,20 @@ header .btm .spot button {
   height: 439px;
   background: #fff;
   border-radius: 5px;
+  text-align: center;
+}
+.trip .trip_list li strong {
+  display: block;
+  padding: 37px 0 15px;
+  color: #333;
+  font-size: 24px;
+  line-height: 1;
+}
+.trip .trip_list li p{
+  font-size: 18px;
+  color: #666;
+  line-height: 28px;
+  padding: 0 0 20px;
 }
 .trip .trip_list li.thoumb{
   width: 100%;
@@ -606,4 +620,11 @@ header .btm .spot button {
   position: absolute;
   right: -10px;
   top: -24px;
+}
+.trip .trip_list li a {
+  display: inline-block;
+  width: 148px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 17px;
 }
