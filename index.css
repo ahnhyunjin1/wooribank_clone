@@ -652,3 +652,9 @@ header .btm .spot button {
 }
 
 /* 일자리 정보 부분 */
+.job .job_info li {
+  padding: 0 30px;
+  width: 285px;
+  border-top: 2px solid #288bcc;
+  box-sizing: border-box;
+}
