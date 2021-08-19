@@ -657,6 +657,7 @@ header .btm .spot button {
   width: 285px;
   border-top: 2px solid #288bcc;
   box-sizing: border-box;
+  line-height: 1;
 }
 .job .job_info li img{
   display: block;
@@ -667,8 +668,12 @@ header .btm .spot button {
   color: #333;
 }
 .job .job_info li p {
+  width: 225px;
+  overflow: hidden;
+  white-space: nowrap;
   font-size: 17px;
   color: #666;
+  padding: 19px 0 47px;
 }
 .job .job_info li span{
   font-size: 12px;
