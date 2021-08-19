@@ -473,13 +473,13 @@ header .btm .spot button {
 .education {
   padding: 0 0 104px;
 }
-.education h3 {
+.h3 {
   font-size: 23px;
   color: #333;
   padding: 0 0 28px;
   line-height: 1;
 }
-.education h3 span {
+.h3 span {
   color: #288bcc;
 }
 .education .edu_warp {
