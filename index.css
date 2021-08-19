@@ -676,6 +676,15 @@ header .btm .spot button {
   color: #666;
   padding: 19px 0 47px;
 }
+.job .job_info li p:after{
+  content: "";
+  position: absolute;
+  left: 0 ;
+  bottom: 26px;
+  width: 36px;
+  height: 1px;
+  background: #288bcc;
+}
 .job .job_info li span{
   font-size: 12px;
   color: #55b9fe;
