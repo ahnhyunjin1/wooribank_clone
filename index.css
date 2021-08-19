@@ -671,6 +671,7 @@ header .btm .spot button {
   width: 225px;
   overflow: hidden;
   white-space: nowrap;
+  text-overflow: ellipsis;
   font-size: 17px;
   color: #666;
   padding: 19px 0 47px;
