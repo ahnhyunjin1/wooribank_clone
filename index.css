@@ -652,16 +652,20 @@ header .btm .spot button {
 }
 
 /* 일자리 정보 부분 */
+.job .job_info {
+  display: flex;
+}
 .job .job_info li {
   padding: 0 30px;
   width: 285px;
   border-top: 2px solid #288bcc;
   box-sizing: border-box;
   line-height: 1;
+  margin:  0 21px 0 0;
 }
 .job .job_info li img{
   display: block;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 .job .job_info li strong {
   font-size: 20px;
@@ -688,4 +692,7 @@ header .btm .spot button {
 .job .job_info li span{
   font-size: 12px;
   color: #55b9fe;
+}
+.job .left{
+  position: relative;
 }
