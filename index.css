@@ -695,4 +695,12 @@ header .btm .spot button {
 }
 .job .left{
   position: relative;
+  float: left;
+}
+.job .left .btn_more{
+  right: 21px;
+}
+.job .right img {
+  width: 225px;
+  border:  1px solid #e4e4e4;
 }
