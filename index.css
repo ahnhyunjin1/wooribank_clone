@@ -484,6 +484,7 @@ header .btm .spot button {
 }
 .h3 em {
   color: #8a76b4;
+  font-weight: bold;
 }
 .education .edu_warp {
   display: flex;
@@ -719,4 +720,29 @@ header .btm .spot button {
   padding: 40px;
   margin: 100px 0 0 ;
   border: 1px solid #aec6f1;
+}
+.customer .h3 {
+  float: left;
+}
+.customer .txt{
+  float: left;
+  font-size: 15px;
+  color: #666;
+  padding: 0 0 0 13px;
+}
+.customer .form{
+  clear: both;
+  display: flex;
+}
+.customer .form input,
+.customer .form select {
+  height: 50px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fafafa;
+}
+.customer .form label {
+  font-size: 15px;
+  color: #333;
+  padding: 0 14px 0 0;
 }
