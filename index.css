@@ -736,6 +736,7 @@ header .btm .spot button {
 }
 .customer .form input,
 .customer .form select {
+  font-size: 15px;
   height: 50px;
   border: 1px solid #ddd;
   border-radius: 5px;
