@@ -482,6 +482,9 @@ header .btm .spot button {
 .h3 span {
   color: #288bcc;
 }
+.h3 em {
+  color: #8a76b4;
+}
 .education .edu_warp {
   display: flex;
   justify-content:  space-between;
@@ -707,4 +710,13 @@ header .btm .spot button {
 }
 .job .right {
   padding: 51px 0 0;
+}
+
+
+/* 고객문의 및 해피콜 */
+.customer{
+  clear: both;
+  padding: 40px;
+  margin: 100px 0 0 ;
+  border: 1px solid #aec6f1;
 }
