@@ -734,6 +734,8 @@ header .btm .spot button {
   clear: both;
   display: flex;
   justify-content: space-between;
+  font-size: 0px;
+  padding: 0 0 27px;
 }
 .customer .form input,
 .customer .form select {
@@ -754,4 +756,31 @@ header .btm .spot button {
 }
 .customer .form input {
   padding: 0 0 0 20px;
+  box-sizing: border-box;
+}
+.customer .form button:after{
+  display: inline-block;
+  content: "";
+  background:url(./images/sArrow_next.png) no-repeat 0 0 / 100% auto ;
+  width: 22px;
+  height: 11px;
+  margin: 0 0 0 10px;
+}
+.customer .form button {
+  width: 130px;
+  height: 50px;
+  border-radius: 5px;
+  background: #288bcc;
+  font-size: 15px;
+  color: #fff;
+  font-weight: bold;
+  margin:  0 0 0 5px;
+}
+.customer .form span{
+  display: inline-block;
+  font-size: 15px;
+  line-height: 50px;
+  vertical-align: middle;
+  width: 18px;
+  text-align: center;
 }
