@@ -733,6 +733,7 @@ header .btm .spot button {
 .customer .form{
   clear: both;
   display: flex;
+  justify-content: space-between;
 }
 .customer .form input,
 .customer .form select {
@@ -746,4 +747,11 @@ header .btm .spot button {
   font-size: 15px;
   color: #333;
   padding: 0 14px 0 0;
+}
+.customer .form input::-webkit-input-placeholder{
+  font-size: 15px;
+  color: #a9a9a9;
+}
+.customer .form input {
+  padding: 0 0 0 20px;
 }
