@@ -786,5 +786,8 @@ header .btm .spot button {
 }
 
 .customer input[type="checkbox"] + label {
-  height: 25px;
+  background: url(./images/chkbox.png) no-repeat ;
+ padding: 0 0 0 40px;
+  display: inline-block;
+  line-height: 25px;
 }
