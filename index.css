@@ -784,3 +784,7 @@ header .btm .spot button {
   width: 18px;
   text-align: center;
 }
+
+.customer input[type="checkbox"] + label {
+  height: 25px;
+}
