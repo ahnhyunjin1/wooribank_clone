@@ -23,8 +23,15 @@ $(document).ready(function () {
     },
   });
 
+
+
   var swiper3 = new Swiper('.slide3', {
     slidesPerView: 6,
+    loop: true,
+    autoplay: {
+      delay: 1000,
+      disableOnInteraction: false,
+    }
   });
 
 
