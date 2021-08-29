@@ -22,4 +22,10 @@ $(document).ready(function () {
       prevEl: ".slide2 .prev",
     },
   });
+
+  var swiper3 = new Swiper('.slide3', {
+    slidesPerView: 6,
+  });
+
+
 });
