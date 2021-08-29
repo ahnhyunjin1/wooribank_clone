@@ -797,3 +797,14 @@ header .btm .spot button {
   text-decoration: underline;
   vertical-align: 1px;
 }
+.slide_btm {
+  padding: 40px;
+  font-size: 0;
+}
+.slide_btm a {
+  padding: 0 10px 0 0;
+}
+.slide_btm img{
+  border: 1px solid #e3e3e3;
+  
+}
