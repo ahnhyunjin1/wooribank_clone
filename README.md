@@ -4,7 +4,7 @@
 <hr/>
 <li> media를 통한 반응형 웹페이지</li>
 <li> section별 다른 반응</li>
-<li> 정보란 입력 구현
+<li> 정보란 입력 구현 </li>
 
 <h4> Release Note </h4>
 <li>21.07.20 헤더부분 완성 (section을 실수해서 많이 버벅였음) <br/>
